@@ -14,6 +14,7 @@ It use the greatful https://block-temporary-email.com/ API validator.
 
 If you want to add this validation on your user model you can add :
 
+```
 require 'email_fake_checker'
 
 class User < ApplicationRecord
@@ -29,3 +30,4 @@ private
     def not_fake_email
         errors.add(:email, "do not use fake or temporal") if EmailFakeChecker.fake?(self.email)
     end
+```
