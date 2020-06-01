@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 
-require 'exclude_fake_emails'
+require 'email_fake_checker'
 
-puts Checker.fake? 'lmartinv@gmail.com'
+puts EmailFakeChecker.fake? 'lmartinv@gmail.com'

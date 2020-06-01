@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
     s.description = "The gem uses cool https://block-temporary-email.com/ API to check if the email that is being used on your application is a fake/temporal email or not."
     s.authors     = ["Martin Vallejo"]
     s.email       = 'martin@captaincode.io'
-    s.files       = ["lib/checker.rb"]
-    s.homepage    = 'https://rubygems.org/gems/exclude_fave_emails'
+    s.files       = ["lib/email_fake_checker.rb"]
+    s.homepage    = 'https://rubygems.org/gems/exclude_fake_emails'
     s.license     = 'MIT'
 end
