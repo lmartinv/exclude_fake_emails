@@ -17,9 +17,13 @@ If you want to add this validation on your user model you can add :
 require 'email_fake_checker'
 
 class User < ApplicationRecord
+
 ...
+
 validate :not_fake_email
+
 ...
+
 private
 
     def not_fake_email
