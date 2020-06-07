@@ -8,7 +8,7 @@ FakeEmailVerifier.fake? 'lmartinv@gmail.com'
 
 => false
 
-You can add it as a validator on email attribut for users.
+You can add it as a validator on email attribute for users.
 
 If you want to add this validation on your user model you can add :
 
